@@ -7,7 +7,7 @@ Created on Sat Aug  1 13:44:35 2020
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-data = pd.read_csv("D:\\chetan\\assignment\\11decision tree\\Company_Data.csv")
+data = pd.read_csv("Company_Data.csv")
 data.head()
 data.describe()
 data.info()
