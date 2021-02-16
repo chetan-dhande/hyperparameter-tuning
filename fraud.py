@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
-data = pd.read_csv("D:\\chetan\\assignment\\11decision tree\\Fraud_check.csv")
+data = pd.read_csv("Fraud_check.csv")
 data.info()
 data.isnull().sum()
 data.describe()
